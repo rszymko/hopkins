@@ -7,7 +7,7 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 import "./application.css";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootswatch/dist/solar/bootstrap.min.css"
 require("../main.ts")
 //require("../hello_angular")
 console.log('Hello World from Webpacker')
