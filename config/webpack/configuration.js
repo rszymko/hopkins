@@ -7,7 +7,9 @@
  * Visit http://www.pragmaticprogrammer.com/titles/dcbang2 for more book information.
 ***/
 // Common configuration for webpacker loaded from config/webpacker.yml
-
+console.log('=========================================');
+console.log('configuration.js');
+console.log('=========================================');
 const { join, resolve } = require('path')
 const { env } = require('process')
 const { safeLoad } = require('js-yaml')
